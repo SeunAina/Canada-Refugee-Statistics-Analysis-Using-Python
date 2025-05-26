@@ -28,7 +28,7 @@ I also defined a helper function `addlabels()` to add value labels on bar plots.
 - Checked for missing values using `.isnull().sum()` — there were none.
 - Ensured all column names (especially years) were converted from strings to integers using:
   ```python
-  df.columns = df.columns.map(str)
+
 
 ---
  ### 4.  Exploratory Data Analysis. Insights and Recommendations
