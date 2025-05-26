@@ -26,8 +26,7 @@ I also defined a helper function `addlabels()` to add value labels on bar plots.
 ### 3. 🧹 Data Cleaning
 - Dropped unnecessary columns: `Type`, `Coverage`, and `AREA`.
 - Checked for missing values using `.isnull().sum()` — there were none.
-- Ensured all column names (especially years) were converted from strings to integers using:
-  ```python
+- Ensured all column names (especially years) were converted from strings to integers using python
 
 
 ---
